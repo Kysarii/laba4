@@ -71,11 +71,12 @@ plt.ylabel('Значения')
 plt.show()
 
 
-plt.title("Cоответсвие номера и квадрата элемента из первой строки ")
+plt.title("Высота столбца от числа элемента первой строки")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.grid()
-plt.plot(range(0,N),F[0],linestyle="-",color="g")
+plt.bar(range(0,N),F[0],color='r',alpha=0.9)
+
 plt.show()
 
 
